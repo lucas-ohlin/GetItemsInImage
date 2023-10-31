@@ -6,3 +6,5 @@ A Python project that uses OpenCV's template matching method to identify and cou
 - OpenCV
 - numpy 
   
+## How It Looks
+<img src="https://github.com/lucas-ohlin/OpenCV-Items-In-Image/assets/113690228/b09df373-e17e-48ce-90e8-abb512ba5867" width="500">
