@@ -38,4 +38,6 @@ def CountItemsInImage(main_image, item_image):
 image_files = [f for f in os.listdir('./Images/') if os.path.isfile(os.path.join('./Images/', f))]
 for item_image_name in image_files:
     item_image_path = os.path.join('./Images/', item_image_name)
-    print(f"{item_image_name}: {CountItemsInImage('./inputimage.png', item_image_path)}")
+    #Split the name from the file type
+    item_name, file_type = item_image_name.rsplit('.', 1)
+    print(f"{item_name}: {CountItemsInImage('./inputimage.png', item_image_path)}")
