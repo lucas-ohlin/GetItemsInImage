@@ -3,6 +3,8 @@ A Python project that uses OpenCV's template matching method to identify and cou
 <br><br>
 It takes an "input image" and goes trough each image in the Images folder, it's fairly easy to change the images.<br>
 All you need to do is replace the input image with something else in the code.
+<br><br>
+Note : Resolution plays a big part with OpenCV so might need to tweak the image sizes a bit incase you're having trouble.
 ## Libraries Used
 - Python 3.x
 - OpenCV
